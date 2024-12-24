@@ -1,0 +1,135 @@
+/*{
+  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}*/
+
+body{
+  min-height: 100px;
+  background: linear-gradient(#f2d975,#e0d8c1,#f4db78),no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(blurbg.jpg);
+
+ } 
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20%;
+  background: linear-gradient(#7b4c06f1,#e5a148d9,#dead64),no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100%;
+}
+
+.navbar a.logo{
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+
+.logo{
+  font-size: 40px;
+  color: rgb(87, 72, 18);
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 0%;
+  left: 10%;
+
+}
+
+
+
+.navbar a{
+  position: relative;
+  color: rgb(81, 54, 3);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.3s;
+  left: 70%;
+  top: 10px;
+  /*justify-content: flex-end;
+  align-items:center;
+  text-align: right;*/
+  display: inline;
+
+}
+
+.navbar a:hover{
+  /*cursor: pointer;*/
+  border-radius: 10px;
+  background-color: bisque;
+  color: #000;
+
+}
+
+/*.bleachlogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}*/
+
+.page-header1{
+  text-align: center;
+  justify-content: center;
+  padding: 50px 0;
+  font-size: 5rem;
+  color: #000;
+}
+
+
+.page-header1{
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+p{
+  font-size: large;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.page-header2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.page-header2{
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+  font-size: 3rem;
+  color: rgb(74, 54, 3);
+
+}
+
+.page-header3{
+  text-align: center;
+  justify-content: center;
+  padding: 20px ;
+  font-size: 3rem;
+  
+}
+
+p{
+  color: rgb(red, green, blue);
+}
+
+.footer{
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(78, 47, 7);
+  color: #e9b95a;
+}

@@ -1,0 +1,75 @@
+*{
+    font-family: 'Poppines',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    
+    min-height: 100vh;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+      
+   
+
+}
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80;
+}
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: linear-gradient(#7b4c06f1,#e5a148d9,#dead64),no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+    }
+.logo{
+    font-size: 35px;
+    color: #462f04;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    position: relative;
+    color: #644007;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    border-radius: 10px;
+    background-color: #e1ca94;
+    color: #000;
+}
+.bleachlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5b3803;
+    color: rgb(238, 205, 139);
+  }
+
+  
